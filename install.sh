@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd BMW
+cd kazem
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,8 +18,8 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_BMW() {
-green "     »»             Welcome to BMW CLi bot                       ««      "
+function logo1_kazem() {
+green "     »»             Welcome to kazem CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_BMW() {
+function logo2_kazem() {
 yellow ""
 yellow ""
 yellow ""
@@ -54,9 +54,9 @@ yellow ""
 yellow ""
 green "     »»           BMW CLi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./TSHAKE.sh                               ««      "
+red   "     »»                   ./kazem.sh                               ««      "
 }
-function install_BMW() {
+function install_kazem() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_BMW() {
+function VICTOR_kazem() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -107,20 +107,20 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  cd ..
 }
 function MOODY_BMW() {
- cd TshAkE
+ cd kazem
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_BMW() {
+function chmod_kazem() {
  chmod +x tg
- chmod +x BMW.sh
- chmod +x BMW-Auto.sh
+ chmod +x kazem.sh
+ chmod +x kazem-Auto.sh
 }
 
-logo1_BMW
-install_BMW
-VICTOR_BMW
-MOODY_BMW
-chmod_BMW
-logo2_BMW
+logo1_kazem
+install_kazem
+VICTOR_kazem
+MOODY_kazem
+chmod_kazem
+logo2_kazem
