@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd BMW200
+cd TshAkE
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,8 +18,8 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_BMW200() {
-green "     »»             Welcome to BMW200 CLi bot                       ««      "
+function logo1_TshAkE() {
+green "     »»             Welcome to TshAkE CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_BMW200() {
+function logo2_TshAkE() {
 yellow ""
 yellow ""
 yellow ""
@@ -44,19 +44,19 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 yellow ""
-Dev    "            Dev @Tel_i_i56"
-Dev    "            Dev @Ayngel_K"
-Dev    "            Dev @TOTATY98"
-Dev    "            Dev @Alo0oshi_9"
-Dev    "            Dev @Jajsjsjssjjs"
-Dev    "            Dev @kazzrr"
+Dev    "            Dev @lIMyIl"
+Dev    "            Dev @EMADOFFICAL"
+Dev    "            Dev @IX00XI"
+Dev    "            Dev @H_173"
+Dev    "            Dev @lIESIl"
+Dev    "            Dev @h_k_a"
 yellow ""
 yellow ""
-green "     »»           BMW CLi successfully installed                 ««      "
+green "     »»           TshAkE CLi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./BMW200.sh                               ««      "
+red   "     »»                   ./TSHAKE.sh                               ««      "
 }
-function install_BMW200() {
+function install_TshAkE() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_BMW200() {
+function VICTOR_TshAkE() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -106,21 +106,21 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_BMW200() {
- cd kazem
+function MOODY_TshAkE() {
+ cd TshAkE
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_BMW200() {
+function chmod_TshAkE() {
  chmod +x tg
- chmod +x BMW200.sh
- chmod +x BMW200-Auto.sh
+ chmod +x TSHAKE.sh
+ chmod +x TSHAKE-Auto.sh
 }
 
-logo1_BMW200
-install_BMW200
-VICTOR_BMW200
-MOODY_BMW200
-chmod_BMW200
-logo2_BMW200
+logo1_TshAkE
+install_TshAkE
+VICTOR_TshAkE
+MOODY_TshAkE
+chmod_TshAkE
+logo2_TshAkE
