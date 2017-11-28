@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd kazem
+cd BMW200
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,8 +18,8 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_kazem() {
-green "     »»             Welcome to kazem CLi bot                       ««      "
+function logo1_BMW200() {
+green "     »»             Welcome to BMW200 CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_kazem() {
+function logo2_BMW200() {
 yellow ""
 yellow ""
 yellow ""
@@ -54,9 +54,9 @@ yellow ""
 yellow ""
 green "     »»           BMW CLi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./kazem.sh                               ««      "
+red   "     »»                   ./BMW200.sh                               ««      "
 }
-function install_kazem() {
+function install_BMW200() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_kazem() {
+function VICTOR_BMW200() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -106,21 +106,21 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_BMW() {
+function MOODY_BMW200() {
  cd kazem
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_kazem() {
+function chmod_BMW200() {
  chmod +x tg
- chmod +x kazem.sh
- chmod +x kazem-Auto.sh
+ chmod +x BMW200.sh
+ chmod +x BMW200-Auto.sh
 }
 
-logo1_kazem
-install_kazem
-VICTOR_kazem
-MOODY_kazem
-chmod_kazem
-logo2_kazem
+logo1_BMW200
+install_BMW200
+VICTOR_BMW200
+MOODY_BMW200
+chmod_BMW200
+logo2_BMW200
